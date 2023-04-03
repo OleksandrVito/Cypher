@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Cypher</string>
+    <string name="delete_all_notes_message">Are you sure you want to delete all notes?</string>
+    <string name="no_notes_found">No notes found</string>
+    <string name="delete">delete</string>
+    <string name="history">history</string>
+    <string name="enter_key">Enter key here...</string>
+    <string name="visibility">visibility</string>
+    <string name="visibility_off">visibility off</string>
+    <string name="enter_your_text">Enter text here...</string>
+    <string name="clean_search">clear search</string>
+    <string name="save_in_history">Save in history</string>
+    <string name="copy">copy</string>
+    <string name="share">share</string>
+    <string name="you_need_key">Enter key</string>
+    <string name="copied">Copied</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="enter_text">Enter text</string>
+    <string name="delete_one_note_message">Are you sure you want to delete this note?</string>
+    <string name="back">back</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Search">Search..</string>
 </resources>
