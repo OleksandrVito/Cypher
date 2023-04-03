@@ -415,7 +415,7 @@ fun MainScreen(
                             } else {
                                 if (inputValue.isNotEmpty()) {
                                     outputValue = viewModel.encryptMessage(
-                                        inputValue, key
+                                        inputValue, key.trim()
                                     )
                                     if (switchState) viewModel.createMessage(
                                         inputValue,
@@ -455,7 +455,7 @@ fun MainScreen(
                             } else {
                                 if (inputValue.isNotEmpty()) {
                                     outputValue = viewModel.decryptMessage(
-                                        inputValue, key
+                                        inputValue, key.trim()
                                     )
                                 } else {
                                     if (toast != null) {
@@ -734,7 +734,7 @@ fun MainScreen(
                                 } else {
                                     if (inputValue.isNotEmpty()) {
                                         outputValue = viewModel.encryptMessage(
-                                            inputValue, key
+                                            inputValue, key.trim()
                                         )
                                         if (switchState) viewModel.createMessage(
                                             inputValue,
@@ -774,7 +774,7 @@ fun MainScreen(
                                 } else {
                                     if (inputValue.isNotEmpty()) {
                                         outputValue = viewModel.decryptMessage(
-                                            inputValue, key
+                                            inputValue, key.trim()
                                         )
                                     } else {
                                         if (toast != null) {
@@ -801,15 +801,5 @@ fun MainScreen(
 //                    .background(Color.Red)
 //            )
         }
-    }
-}
-
-@Composable
-fun Int.scaledSp(): TextUnit {
-    val value: Int = this
-    return with(LocalDensity.current) {
-        val fontScale = this.fontScale
-        val textSize = value / fontScale
-        textSize.sp
     }
 }

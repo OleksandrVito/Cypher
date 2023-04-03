@@ -38,23 +38,6 @@ class MainViewModel @Inject constructor(
             repository.deleteMessage(message)
         }
     }
-//    private val _alias = mutableStateOf("secret")
-//    val alias: State<String> = _alias
-
-//    private val _inputValue = mutableStateOf("")
-//    val inputValue: State<String> = _inputValue
-//    fun enteredText (text:String) = run { _inputValue.value = text }
-
-//    private val _outputValue = mutableStateOf("")
-//    val outputValue: State<String> = _outputValue
-//    fun getOutputValue (outputValue:String) = run { _outputValue.value = outputValue }
-
-//    private val _alias = mutableStateOf("")
-//    val alias: State<String> = _alias
-//    fun enteredKey (key:String) = run { _alias.value = key }
-
-//    private val _saveCheck = mutableStateOf(true)
-//    val saveCheck: State<Boolean> = _saveCheck
 
     private var secretKey: SecretKeySpec? = null
     private lateinit var key: ByteArray
@@ -116,7 +99,7 @@ class MainViewModel @Inject constructor(
 
     fun decryptMessage(messageToDecrypt: String, secretKey: String): String {
         val decryptedString = decrypt(messageToDecrypt, secretKey)
-        return "$decryptedString"
+        return decryptedString ?: ""
     }
 
 }

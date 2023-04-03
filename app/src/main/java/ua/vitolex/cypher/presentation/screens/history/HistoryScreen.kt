@@ -151,7 +151,7 @@ fun HistoryScreen(
                     messages.value.filter { it.encryptMessage.contains(messageQuery.value) }
                 }
 
-                itemsIndexed(queriedNotes) { index, message ->
+                itemsIndexed(queriedNotes.reversed()) { index, message ->
 
                     MessageItem(
                         message = message,
