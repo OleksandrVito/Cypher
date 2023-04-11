@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cypher</string>
-    <string name="delete_all_notes_message">Ви впевнені, що хочете видати всі записи?</string>
+    <string name="delete_all_notes_message">Ви впевнені, що хочете видалити всі записи?</string>
     <string name="no_notes_found">Не знайдено записів</string>
     <string name="delete">видалити</string>
     <string name="history">історія</string>
@@ -17,10 +17,10 @@
     <string name="copied">Скопійовано</string>
     <string name="encrypt">Зашифрувати</string>
     <string name="decrypt">Розшифрувати</string>
-    <string name="enter_text">Ведіть текст</string>
-    <string name="delete_one_note_message">Ви впевнені, що хочете видати цей запис?</string>
+    <string name="enter_text">Введіть текст</string>
+    <string name="delete_one_note_message">Ви впевнені, що хочете видалити цей запис?</string>
     <string name="back">назад</string>
     <string name="yes">Так</string>
     <string name="no">Ні</string>
-    <string name="Search">Пошук..</string>
+    <string name="Search">Пошук...</string>
 </resources>

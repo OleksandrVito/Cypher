@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cypher</string>
+    <string name="delete_all_notes_message">¿Está seguro de que desea eliminar todas las entradas?</string>
+    <string name="no_notes_found">No se encontraron registros</string>
+    <string name="delete">eliminar</string>
+    <string name="history">historia</string>
+    <string name="enter_key">Introduzca la clave aquí...</string>
+    <string name="visibility">visiblemente</string>
+    <string name="visibility_off">invisible</string>
+    <string name="enter_your_text">Introducir texto aquí...</string>
+    <string name="clean_search">borrar búsqueda</string>
+    <string name="save_in_history">Guardar en el historial</string>
+    <string name="copy">copiar</string>
+    <string name="share">para compartir</string>
+    <string name="you_need_key">Introduzca la clave</string>
+    <string name="copied">Copiado</string>
+    <string name="encrypt">Cifrar</string>
+    <string name="decrypt">Descifrar</string>
+    <string name="enter_text">Ingrese texto</string>
+    <string name="delete_one_note_message">¿Estás seguro que quieres eliminar esta nota?</string>
+    <string name="back">atrás</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="Search">Buscar...</string>
+</resources>
